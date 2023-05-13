@@ -19,7 +19,20 @@ public class Validation {
 		// 1. Use each value of randomNumber to give the user a random compliment.
 
 		// 2. Repeat all the code above 10 times
-		
+		for (int complimentCount = 0;complimentCount < 10; complimentCount ++) {
+			if (randomNumber == 0) {
+				JOptionPane.showMessageDialog(null, "YOU ARE ALIVE!!!!!!!!!!!!");
+			}
+			if (randomNumber == 1) {
+				JOptionPane.showMessageDialog(null, "YOU CAN BREATHE!!!!!!!!!!!!!!!");
+		}
+			if (randomNumber == 2) {
+				JOptionPane.showMessageDialog(null, "YOU ARE HUMAN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  ");
+			}
+			if (randomNumber == 3) {
+				JOptionPane.showMessageDialog(null, "YOU CAN WALK!!!!!!!!!!!!!!!!");
+			}
 		// 3. Find someone to test out your program. They will like it :)
+	}
 	}
 }
